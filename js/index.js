@@ -78,7 +78,7 @@ $(".previous").click(function(){
 });
 
 $(".submit").click(function(){
-	return swal("Good job!", "You clicked the button!", "success");
+	return swal("Completed!", "Check your mail", "success");
 })
  $(".process").click(function(){
 	 const amount = Number($("#amount").val());
