@@ -28,8 +28,13 @@ html {
 }
 
 body {
+	background-color: #2a2c30;
   font-family: montserrat, arial, verdana;
-  background-color: mintcream;
+  background-image: url('http://res.cloudinary.com/babadee30/image/upload/v1517735898/bitcoin-perfecthue_pd8gaj.jpg');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100%;
 }
 
 .ssl {
@@ -285,7 +290,7 @@ body {
 
 .form-mini .form-last-row{
 	margin: 35px auto 0;
-	background-color: aliceblue !important;
+	background-color: #fffd9d !important;
 }
 
 .form-mini button{
@@ -331,7 +336,7 @@ body {
 	background-color: aliceblue !important;
 }
 .process {
-	background-color: aliceblue !important;
+	background-color: #f0cb56 !important;
 }
 .pay {
 	font-family: fantasy;
@@ -339,4 +344,16 @@ body {
 .form-mini-container h1 {
 	margin-top: 40px;
     color: #89948a;
+}
+.ptran {
+	color: white !important;
+}
+footer a {
+	color: mintcream;
+}
+footer h4 {
+	color: white;
+}
+footer h6 {
+	color: white;
 }
